@@ -465,6 +465,12 @@ main {
     .news-content p {
         text-align: center;
     }
+    .section-title {
+        font-size: 36px;
+    }
+    .left-side {
+        padding-right: 0;
+    }
 }
 
 .feedback {
