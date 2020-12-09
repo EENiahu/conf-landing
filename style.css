@@ -390,10 +390,11 @@ main {
         max-width: 80%;
         margin: 0 auto;
     }
-
     .registration-left {
-        max-width: 60%;
-        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 0;
     }
     .registration-right {
         display: none;
@@ -431,7 +432,24 @@ main {
     .tabpanel-li {
         font-size: 15px !important;
     }
+    .left-side img {
+        max-width: 90%;
+    }
+    .field-group {
+        flex-direction: column;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .field:first-child {
+        padding-right: 0;
+    }
 
+    .feedback-input {
+        padding: 0;
+    }
+    .feedback-textarea {
+        padding: 0;
+    }
 }
 @media (max-width: 750px) {
     /*News*/
