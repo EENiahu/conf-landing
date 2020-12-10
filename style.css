@@ -450,7 +450,7 @@ main {
 /* ===== == = === 56.25em (900px) === = == ===== */
 @media all and (min-width: 56.25em) {
     .speakers-cards__item {
-        width: calc(100% / 12 * 4 );
+        width: calc(100% / 16 * 4 );
     }
 }
 
